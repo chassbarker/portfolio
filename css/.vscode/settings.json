@@ -1,4 +1,6 @@
 {
-    "workbench.editor.enablePreview": false,
-    "files.autoSave": "onWindowChange"
+    "workbench.editor.enablePreview": true,
+    "files.autoSave": "afterDelay",
+    "editor.wordWrap": "on",
+    "view-in-browser.default": "microsoft edge"
 }
