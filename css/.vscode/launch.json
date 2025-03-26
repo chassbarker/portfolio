@@ -26,8 +26,7 @@
             "port": 9222,
             "request": "attach",
             "type": "msedge",
-            "webRoot": "
-            "
+            "webRoot": "${workspaceFolder}"
         },
         {
             "name": "Attach to Edge",
@@ -44,7 +43,7 @@
             "webRoot": "${workspaceFolder}"
         },
         {
-            "type": "pwa-msedge",
+            "type": "msedge",
             "name": "Launch Microsoft Edge",
             "request": "launch",
             "runtimeArgs": [
@@ -56,7 +55,7 @@
             }
         },
         {
-            "type": "pwa-msedge",
+            "type": "msedge",
             "name": "Launch Microsoft Edge in headless mode",
             "request": "launch",
             "runtimeArgs": [
