@@ -1,33 +1,31 @@
-style.css
-/* Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body {
+body,
+html {
     font-family: 'Arial', sans-serif;
-    background-color: #e0e0e0;
+    background-color: #f4f4f4;
 }
 
-/* Navigation Bar */
-.navbar {
+nav.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 15px 40px;
     background-color: #333;
-    padding: 10px 20px;
 }
 
-.navbar .logo {
-    color: #fff;
+.logo {
+    color: white;
     font-size: 1.5rem;
     font-weight: bold;
 }
 
 .nav-links {
-    list-style: none;
+    list-style-type: none;
     display: flex;
 }
 
@@ -36,77 +34,111 @@ body {
 }
 
 .nav-links a {
-    text-decoration: none;
     color: white;
+    text-decoration: none;
     font-size: 1rem;
-    transition: color 0.3s ease-in-out;
 }
 
-.nav-links a:hover {
-    color: #ff4081;
-}
-
-/* Hero Section */
-.hero-box {
-    position: relative;
-    width: 100%;
-    height: 90vh;
-    /* Full viewport height */
-    background: url('/c:/Users/Chassidy Barker/Desktop/New folder (10)/chassidybarker/portfolio/css/hero.jpg') no-repeat center center/cover;
+.hero-section {
+    height: 100vh;
+    background-image: url("hero.jpg");
+    background-size: cover;
+    background-position: center;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: flex-end;
+    position: relative;
 }
 
-.hero-content {
-    text-align: center;
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     background: rgba(0, 0, 0, 0.6);
-    /* Dark overlay to enhance readability */
-    color: white;
+    z-index: 1;
+}
+
+.text-content {
+    position: relative;
+    width: 25%;
     padding: 40px;
-    border-radius: 12px;
-    max-width: 600px;
-}
-
-.hero-content h1 {
-    font-size: 3rem;
-    margin-bottom: 15px;
-}
-
-.hero-content p {
-    font-size: 1.2rem;
-    margin-bottom: 25px;
-    line-height: 1.6;
-}
-
-.btn {
-    display: inline-block;
-    padding: 12px 25px;
-    background-color: #ff4081;
+    z-index: 2;
     color: white;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 25px;
-    transition: background-color 0.3s ease-in-out, transform 0.2s;
+    text-align: right;
 }
 
-.btn:hover {
-    background-color: #e91e63;
-    transform: scale(1.05);
+.text-content h1 {
+    font-size: 2.8rem;
+    margin-bottom: 15px;
+    font-weight: 700;
 }
 
-/* Responsive Design */
+.text-content p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+
+.about-section,
+.contact-section {
+    padding: 80px 40px;
+    text-align: center;
+    background-color: white;
+    margin: 40px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-section h1,
+.contact-section h1 {
+    margin-bottom: 20px;
+    font-size: 2.4rem;
+    color: #333;
+}
+
+.about-section p,
+.contact-section p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin: 10px 0;
+    font-size: 1.2rem;
+    color: #444;
+}
+
 @media (max-width: 768px) {
-    .hero-content h1 {
+    .text-content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .text-content h1 {
         font-size: 2rem;
     }
 
-    .hero-content p {
+    .text-content p {
         font-size: 1rem;
     }
 
+    nav.navbar {
+        flex-direction: column;
+    }
+
     .nav-links {
-        display: none;
-        /* Hide menu for small screens */
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
     }
 }
