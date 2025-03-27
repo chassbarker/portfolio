@@ -52,7 +52,7 @@ html {
   transform: scale(1.1);
 }
 body {
-  background-image: url('images/hero-background.jpg'); 
+  background-image: url('style.css/hero-background.jpg'); 
   background-size: cover;
   /* This makes the image cover the entire background */
   background-repeat: no-repeat;
