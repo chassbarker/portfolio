@@ -19,26 +19,26 @@
     </nav>
 
 
-<header class="hero">
-    <div id="hero-text-overlay" class="hero-text-overlay" style="display: none;">
-        <h1 class="animated-gradient">Push Beyond the Boundaries of Your Dreams</h1>
-        <a href="contact.html" class="btn hero-btn">Contact Me</a>
-    </div>
-    <script>
-        document.addEventListener("DOMContentLoaded", () => {
-            const heroOverlay = document.getElementById("hero-text-overlay");
-            const observer = new IntersectionObserver((entries) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        heroOverlay.style.display = "block";
-                        observer.disconnect();
-                    }
+    <header class="hero">
+        <div id="hero-text-overlay" class="hero-text-overlay" style="display: none;">
+            <h1 class="animated-gradient">Push Beyond the Boundaries of Your Dreams</h1>
+            <a href="contact.html" class="btn hero-btn">Contact Me</a>
+        </div>
+        <script>
+            document.addEventListener("DOMContentLoaded", () => {
+                const heroOverlay = document.getElementById("hero-text-overlay");
+                const observer = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            heroOverlay.style.display = "block";
+                            observer.disconnect();
+                        }
+                    });
                 });
+                observer.observe(document.querySelector(".hero"));
             });
-            observer.observe(document.querySelector(".hero"));
-        });
-    </script>
-</header>
+        </script>
+    </header>
 
     <section class="services">
         <h2>Hello and Welcome</h2>
