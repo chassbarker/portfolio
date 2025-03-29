@@ -77,9 +77,10 @@ body {
     position: relative;
     z-index: 2;
     text-align: right;
-    color: rgb(33, 33, 33); /* Updated for better contrast */
+    color: rgb(98, 56, 56);
     padding-top: 10%;
     animation: fadeIn 2s ease-in-out;
+    will-change: opacity;
 }
 
 .animated-gradient {
