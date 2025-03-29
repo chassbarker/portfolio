@@ -83,7 +83,7 @@ body {
 .hero-text .header {
     font-size: 3rem;
     color: #fff;
-    text-justify: right;
+    text-align: right;
 }
 /* Button Styling */
 .hero-btn {
