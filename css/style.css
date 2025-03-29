@@ -64,8 +64,11 @@ body {
 
 /* Hero Section */
 .hero {
-    height: 100vh;
-    background: url('../images/hero.jpg') no-repeat center center/cover;
+    min-height: 100vh;
+    background-image: url('../images/hero.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
     position: relative;
 }
 
@@ -73,7 +76,7 @@ body {
 .hero-text {
     position: relative;
     z-index: 2;
-    text-align: center;
+    text-align: right;
     color: rgb(98, 56, 56);
     padding-top: 10%;
     animation: fadeIn 2s ease-in-out;
