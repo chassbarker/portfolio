@@ -113,7 +113,7 @@ body {
 }
 
 .hero-btn:hover {
-    background-color: #0056b3;
+    background-color: #0e0f10;
 }
 
 /* Animated Gradient Text */
@@ -140,7 +140,7 @@ body {
 
 /* Services Section */
 .services {
-    background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+    background: linear-gradient(to right, #266f6b, #2c7d78;);
     text-align: center;
     padding: 80px 40px;
 }
@@ -224,7 +224,7 @@ body {
 footer {
     text-align: center;
     padding: 20px 0;
-    background-color: #ff758f;
+    background-color: #2c7d78
     color: white;
 }
 
