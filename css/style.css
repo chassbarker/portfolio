@@ -19,7 +19,8 @@ html {
     justify-content: space-between;
     align-items: center;
     padding: 15px 40px;
-    background: linear-gradient(90deg, #2f8f80e3, #2b6c76);
+    background: linear-gradient(90deg, 
+    #2f8f80e3, #2b6c76);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -48,7 +49,7 @@ html {
 }
 
 .nav-links a:hover {
-    color: #1abfed;
+    color: #010d11;
     transform: scale(1.2);
 }
 
