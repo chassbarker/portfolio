@@ -63,8 +63,10 @@ body {
 }
 
 /* Hero Section */
-.hero {
-    position: relative;
+.hero image {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     width: 100%;
     height: 100vh;
     /* Full-screen height */
@@ -75,28 +77,10 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
+    width: 50%
 }
 
-.hero-text-left {
-    width: 80%;
-    text-align: horizontal;
-    padding-left: 30px
-    /* Adjust if you want content here later */
-}
 
-.hero-text-right {
-    width: ;
-    text-align: ;
-}
-
-.hero-text-left h1 {
-    margin-left: 75px;
-    font-size: 2.5rem;
-    margin-left: 60px;
-    /* Adjust font size */
 }
 /* Button Styling */
 .hero-btn {
