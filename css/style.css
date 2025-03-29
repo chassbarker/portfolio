@@ -65,7 +65,7 @@ body {
 /* Hero Section */
 .hero {
   height: 100vh;
-  background: url('comp') no-repeat center center/cover;
+  background: url('images/hero.jpg') no-repeat center center/cover;
   position: relative;
 }
 
@@ -83,7 +83,7 @@ body {
   z-index: 2;
   text-align: center;
   color: white;
-  padding-top: 20%;
+  padding-top: 10%;
   animation: fadeIn 2s ease-in-out;
 }
 
@@ -92,7 +92,7 @@ body {
   background-clip: text;
   color: transparent;
   animation: gradient-shift 5s infinite;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 .hero-desc {
