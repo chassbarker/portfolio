@@ -87,10 +87,10 @@ body {
     transform: translateX(-50%);
     /* Centers the text horizontally */
     text-align: center;
-    color: rgb(13, 13, 13);
+    color: rgb(248, 65, 181);
     /* Ensures the text is visible against the image */
     padding: 10px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(25, 24, 24, 0.5);
     /* Optional: Adds a semi-transparent background */
     border-radius: 5px;
     /* Optional: Gives the text box rounded corners */
