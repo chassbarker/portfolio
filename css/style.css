@@ -83,6 +83,7 @@ body {
 .hero-text-left {
     width: 80%;
     text-align: left;
+    padding-left: 30px
     /* Adjust if you want content here later */
 }
 
