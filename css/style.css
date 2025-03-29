@@ -80,6 +80,7 @@ body {
     color: rgb(98, 56, 56);
     top: 50%;
     right: 90%;
+    padding-right: 20;
     transform: translate(-50%, -60%);
     animation: fadeIn 2s ease-in-out;
     will-change: opacity;
