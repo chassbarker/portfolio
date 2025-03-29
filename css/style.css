@@ -63,52 +63,47 @@ body {
 }
 
 .hero {
-    position: relative;
-    /* Allows child elements to use absolute positioning */
-
-}
-
-.hero-image {
+    height: 100vh;
+    /* Full viewport height */
     background-image: url('../images/comprose.jpg');
+    /* Path to your hero image */
     background-size: cover;
-    /* Ensures the image covers the entire header area */
+    /* Ensures the image covers the entire area */
     background-position: center;
     /* Centers the image */
     background-repeat: no-repeat;
-    /* Prevents the image from repeating */
+    /* Prevents tiling */
+    position: relative;
+    /* Enables positioning for child elements */
 }
-
 
 .hero-text-overlay {
     position: absolute;
-    /* Positions the text overlay relative to the .hero container */
+    /* Layers the text over the background image */
     bottom: 20px;
-    /* Adjust this value to control the distance from the bottom */
+    /* Aligns the text at the bottom of the hero section */
     left: 50%;
     transform: translateX(-50%);
     /* Centers the text horizontally */
     text-align: center;
+    /* Centers the content */
     color: white;
     /* Ensures the text is visible against the image */
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.5);
     /* Optional: Adds a semi-transparent background */
     border-radius: 5px;
-    /* Optional: Gives the text box rounded corners */
+    /* Optional: Rounds the edges of the text box */
 }
 
-.hero-text {
-    font-size: 3rem;
-    color: #f013a3;
-    text-align: center;
-}
+
 
 /* Button Styling */
 .hero-btn {
     display: inline-block;
     padding: 10px 20px;
     color: white;
-    background-color: #007BFF;
+    background-color: #ff00bb;
     border: none;
     border-radius: 5px;
     text-decoration: none;
