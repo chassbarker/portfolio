@@ -60,10 +60,13 @@ body {
     /* This prevents the image from repeating */
     background-position: center;
     /* This centers the image */
-}
 
-/* Hero Section */
-..hero {
+.hero {
+    position: relative;
+            /* Allows child elements to use absolute positioning */
+     height: 100vh;}
+
+.hero-image {
     background-image: url('../images/comprose.jpg');
     background-size: cover;
     /* Ensures the image covers the entire header area */
@@ -72,18 +75,27 @@ body {
     background-repeat: no-repeat;
     /* Prevents the image from repeating */
 }
-}
 
-.hero-text {
-    display: flex;
-    justify-content: flex-end;
-    top: 50%;
+
+.hero-text-overlay {
+    position: absolute;
+    /* Positions the text overlay relative to the .hero container */
+    bottom: 20px;
+    /* Adjust this value to control the distance from the bottom */
     left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
+    transform: translateX(-50%);
+    /* Centers the text horizontally */
+    text-align: center;
+    color: white;
+    /* Ensures the text is visible against the image */
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Optional: Adds a semi-transparent background */
+    border-radius: 5px;
+    /* Optional: Gives the text box rounded corners */
 }
 
-.hero-text .header {
+.hero-text{
     font-size: 3rem;
     color: #fff;
     text-align: center;
