@@ -81,7 +81,7 @@ body {
     top: 50%;
     right: 90%;
     padding-right: 70;
-    margin-right: 50px;
+    margin-right: 70px;
     transform: translate(-50%, -60%);
     animation: fadeIn 2s ease-in-out;
     will-change: opacity;
