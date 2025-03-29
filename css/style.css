@@ -47,7 +47,7 @@ html {
     transition: background-color 0.3s, transform 0.2s;
 }
 
-.nav-links a:hover {
+.nav-links a:hover-grow {
     color: #4c053e;
     transform: scale(1.5);
 }
