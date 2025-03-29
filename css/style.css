@@ -190,7 +190,7 @@ body {
 
 /* Call-to-Action Section */
 .cta {
-    background: linear-gradient(135deg, #b07d86, #ff9a8b);
+    background: linear-gradient(135deg, hwb(349 49% 31%), #c38bb6);
     color: white;
     text-align: center;
     padding: 60px 20px;
