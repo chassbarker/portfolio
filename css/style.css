@@ -76,7 +76,7 @@ body {
 .hero-text {
     position: absolute;
     z-index: 3;
-    text-align: center;
+    text-align: center-right;
     color: rgb(98, 56, 56);
     top: 50%;
     right: 90%;
