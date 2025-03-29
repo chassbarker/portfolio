@@ -53,7 +53,7 @@ html {
 }
 
 body {
-  background-image: url('images/hero-background.jpg');
+  background-image: url('');
   background-size: cover;
   /* This makes the image cover the entire background */
   background-repeat: no-repeat;
@@ -74,7 +74,7 @@ body {
   position: relative;
   z-index: 2;
   text-align: center;
-  color: white;
+  color: rgb(98, 56, 56);
   padding-top: 10%;
   animation: fadeIn 2s ease-in-out;
 }
