@@ -84,14 +84,15 @@ body {
     padding-right: 70px;
     margin-right: 60px;
     animation: fadeIn 2s ease-in-out;
-    will-change: opacity;
+    /* Removed will-change to avoid unnecessary resource consumption */
 }
 
 .animated-gradient {
     background: linear-gradient(45deg, #ff758f, #ff9a8b, #ffe082, #f8b400);
     background-clip: text;
-    color: transparent;
-    animation: gradient-shift 5s infinite;
+    animation: fadeIn 2s ease-in-out;
+    animation-fill-mode: forwards;
+    will-change: opacity;
     font-size: 3rem;
 }
 
