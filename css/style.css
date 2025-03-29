@@ -76,13 +76,13 @@ body {
 .hero-text {
     position: absolute;
     z-index: 3;
-    text-align: center-right;
-    color: rgb(98, 56, 56);
+    text-align: right;
+    color: rgb(50, 25, 25); /* Adjusted for better contrast */
     top: 50%;
-    right: 90%;
-    padding-right: 70;
+    right: 10%;
+    padding-right: 70px;
     margin-right: 70px;
-    transform: translate(-50%, -60%);
+    transform: translate(-50%, -50%);
     animation: fadeIn 2s ease-in-out;
     will-change: opacity;
 }
