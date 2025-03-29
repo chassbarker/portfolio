@@ -74,9 +74,9 @@ body {
 
 
 .hero-text {
-    position: right-of-center;
+    position: right;
     z-index: 2;
-    text-align: right;
+    text-align: right-column;
     color: rgb(98, 56, 56);
     padding-top: 10%;
     animation: fadeIn 2s ease-in-out;
