@@ -87,7 +87,7 @@ body {
     transform: translateX(-50%);
     /* Centers the text horizontally */
     text-align: center;
-    color: white;
+    color: rgb(222, 18, 123);
     /* Ensures the text is visible against the image */
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.5);
