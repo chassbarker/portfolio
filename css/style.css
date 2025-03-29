@@ -94,7 +94,7 @@ body {
 .hero-text-left h1 {
     margin-left: 75px;
     font-size: 2.5rem;
-    padding-left: 60px;
+    margin-left: 60px;
     /* Adjust font size */
 }
 /* Button Styling */
