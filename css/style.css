@@ -48,7 +48,7 @@ html {
 }
 
 .nav-links a:hover {
-    background-color: #660853;
+    text-decoration-color: #4c053e;
     transform: scale(1.1);
 }
 
