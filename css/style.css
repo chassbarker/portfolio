@@ -64,8 +64,9 @@ body {
 
 .hero {
     position: relative;
-            /* Allows child elements to use absolute positioning */
-     height: 100vh;}
+    /* Allows child elements to use absolute positioning */
+    height: 100vh;
+}
 
 .hero-image {
     background-image: url('../images/comprose.jpg');
@@ -87,7 +88,7 @@ body {
     transform: translateX(-50%);
     /* Centers the text horizontally */
     text-align: center;
-    color: rgb(248, 65, 181);
+    color: rgb(255, 255, 255);
     /* Ensures the text is visible against the image */
     padding: 10px;
     background-color: rgba(25, 24, 24, 0.5);
@@ -96,7 +97,7 @@ body {
     /* Optional: Gives the text box rounded corners */
 }
 
-.hero-text{
+.hero-text {
     font-size: 3rem;
     color: #f013a3;
     text-align: center;
