@@ -73,6 +73,12 @@ body {
 }
 
 .hero-text {
+    .header {
+        font-size: 3rem;
+        color: #fff;
+        text-justify: right;
+        margin-bottom: 20px;
+    }
     position: right;
     top: 50%;
     left: 50%;
