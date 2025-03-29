@@ -107,8 +107,8 @@ body {
     background-color: #ff00bb;
     border: none;
     border-radius: 5px;
-    text-decoration: none;
-    font-size: 1.5rem;
+    text-decoration: bold;
+    font-size: 1rem;
     margin-top: 10px;
 }
 
@@ -122,7 +122,7 @@ body {
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
-    animation: fadeIn 2s ease-in-out;
+    animation: fadeIn 3s ease-in;;
     animation-fill-mode: forwards;
     font-size: 3rem;
 }
