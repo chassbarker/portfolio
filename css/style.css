@@ -81,7 +81,6 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding-right: 70px;
     margin-right: 60px;
     animation: fadeIn 2s ease-in-out;
     /* Removed will-change to avoid unnecessary resource consumption */
