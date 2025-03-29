@@ -140,7 +140,7 @@ body {
 
 /* Services Section */
 .services {
-    background: linear-gradient(to right, #266f6b, #2c7d78;);
+    background: linear-gradient(to right, #266f6b, #2c7d78);
     text-align: center;
     padding: 80px 40px;
 }
@@ -224,7 +224,7 @@ body {
 footer {
     text-align: center;
     padding: 20px 0;
-    background-color: #2c7d78
+    background-color: #2c7d78;
     color: white;
 }
 
