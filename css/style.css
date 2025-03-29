@@ -91,7 +91,7 @@ body {
 }
 
 .hero-text-right h1 {
-    margin: 0;
+    margin-block-end: 0;
     font-size: 2.5rem;
     /* Adjust font size */
 }
