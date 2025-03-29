@@ -78,7 +78,8 @@ body {
     z-index: 2;
     text-align: right-column;
     color: rgb(98, 56, 56);
-    padding-top: 10%;
+    padding-top: 10%;padding-block-end: 0mm;
+
     animation: fadeIn 2s ease-in-out;
     will-change: opacity;
 }
