@@ -79,7 +79,7 @@ body {
     text-align: center;
     color: rgb(98, 56, 56);
     top: 50%;
-    left: 70%;
+    left: 50%;
     transform: translate(-50%, -50%);
     animation: fadeIn 2s ease-in-out;
     will-change: opacity;
