@@ -19,8 +19,8 @@ html {
     justify-content: space-between;
     align-items: center;
     padding: 15px 40px;
-    background: linear-gradient(90deg, 
-    #2f8f80e3, #1b6a69);
+    background: linear-gradient(90deg,
+            #2f8f80e3, #1b6a69);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -216,7 +216,7 @@ body {
 }
 
 .cta-btn:hover {
-    background-color: #ff5722;
+    background-color: #040404;
     transform: scale(1.1);
 }
 
