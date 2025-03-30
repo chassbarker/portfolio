@@ -220,7 +220,8 @@ body {
 }
 
 .cta-btn:hover {
-    background-color: #a67c22; /* A darker shade of #cf9e2c */
+    background-color: #a67c22;
+    /* A darker shade of #cf9e2c */
     transform: scale(1.1);
 }
 
