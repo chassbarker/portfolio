@@ -64,7 +64,7 @@ body {
 }
 
 .hero {
-    height: 100vh;
+    min-height: 100vh;
     /* Full viewport height */
     background-image: url('../images/comprose.jpg');
     /* Path to your hero image */
