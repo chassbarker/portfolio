@@ -63,6 +63,7 @@ body {
     /* This centers the image */
 }
 
+/* Hero section: Full-screen background with centered content */
 .hero {
     min-height: 100vh;
     /* Full viewport height */
@@ -76,6 +77,7 @@ body {
     /* Prevents tiling */
     position: relative;
     /* Enables positioning for child elements */
+}
 }
 
 .hero-text-overlay {
