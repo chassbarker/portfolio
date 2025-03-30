@@ -209,9 +209,10 @@ body {
     font-size: 1.3rem;
 }
 
-.cta-btn {
-    background-color: hsl(42, 65%, 49%);
-    color: white;
+.cta-btn.cta-btn:hover {
+    background-color: rgb(233, 191, 25);
+    transform: scale(1.05);
+    color: rgb(8, 8, 8);
     padding: 12px 25px;
     border-radius: 5px;
     text-decoration: none;
