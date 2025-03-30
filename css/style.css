@@ -66,7 +66,7 @@ body {
 .hero {
     min-height: 100vh;
     /* Full viewport height */
-    background-image: url('../images/comprose.jpg');
+    background-image: url('../images/comprose.jpg);
     /* Path to your hero image */
     background-size: cover;
     /* Ensures the image covers the entire area */
