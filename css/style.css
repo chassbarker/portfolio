@@ -107,7 +107,8 @@ body {
     background-color: rgb(233, 191, 25);
     border: none;
     border-radius: 5px;
-    text-decoration: none; /* Changed from 'bold' to 'none' */
+    text-decoration: none;
+    /* Changed from 'bold' to 'none' */
     font-size: 1rem;
     margin-top: 10px;
 }
