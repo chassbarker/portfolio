@@ -1,3 +1,12 @@
+:root {
+    --blush-pink: #F4C2C2;
+    --gold: #D4AF37;
+    --soft-white: #FAFAFA;
+    --muted-green: #A4B494;
+    --charcoal-gray: #4A4A4A;
+}
+
+/* Reset + Base Styles */
 * {
     margin: 0;
     padding: 0;
