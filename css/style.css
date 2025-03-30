@@ -210,7 +210,7 @@ body {
 }
 
 .cta-btn {
-    background-color: #cf9e2c;
+    background-color: hsl(42, 65%, 49%);
     color: white;
     padding: 12px 25px;
     border-radius: 5px;
@@ -220,7 +220,7 @@ body {
 }
 
 .cta-btn:hover {
-    background-color: #040404;
+    background-color: #a67c22; /* A darker shade of #cf9e2c */
     transform: scale(1.1);
 }
 
