@@ -1,12 +1,7 @@
     {
         "version": "0.2.0",
         "configurations": [
-            
-
-            
             // Removed duplicate "Attach to Chrome (1)" configuration to avoid conflicts
-
-            
             {
                 "name": "Launch Chrome",
                 "request": "launch",
@@ -17,11 +12,11 @@
                 "webRoot": "${workspaceFolder}"
             },
             {
-"name": "Attach to Chrome (Port 9222)",
-"port": 9222,
-"request": "attach",
-"type": "chrome",
-"webRoot": "${workspaceFolder}"
+                "name": "Attach to Chrome (Port 9222)",
+                "port": 9222,
+                "request": "attach",
+                "type": "chrome",
+                "webRoot": "${workspaceFolder}"
             },
             {
                 "name": "Attach to Node.js",
