@@ -2,26 +2,26 @@
         "version": "0.2.0",
         "configurations": [
             
+
+            
+            // Removed duplicate "Attach to Chrome (1)" configuration to avoid conflicts
+
+            
             {
                 "name": "Launch Chrome",
                 "request": "launch",
                 "type": "chrome",
                 "url": "http://localhost:8080",
+                // Maps the workspace folder to the web server's root for debugging purposes
+                // Maps the workspace folder to the web server's root for debugging purposes
                 "webRoot": "${workspaceFolder}"
             },
             {
-                "name": "Attach to Chrome",
-                "port": 9222,
-                "request": "attach",
-                "type": "chrome",
-                "webRoot": "${workspaceFolder}"
-            },
-            {
-                "name": "Attach to Chrome",
-                "port": 9222,
-                "request": "attach",
-                "type": "chrome",
-                "webRoot": "${workspaceFolder}"
+"name": "Attach to Chrome",
+"port": 9224,
+"request": "attach",
+"type": "chrome",
+"webRoot": "${workspaceFolder}"
             },
             {
                 "name": "Attach to Node.js",
@@ -34,9 +34,9 @@
             },
             {
                 "name": "Attach to Edge",
-                "port": 9222,
+                "port": 9223,
                 "request": "attach",
-                "type": "chrome",
+                "type": "msedge",
                 "webRoot": "${workspaceFolder}"
             },
             {
@@ -55,7 +55,7 @@
                 "runtimeArgs": [
                     "--remote-debugging-port=9222"
                 ],
-                "url": "c:\\Users\\Chassidy Barker\\.vscode\\extensions\\ms-edgedevtools.vscode-edge-devtools-2.1.8\\out\\startpage\\index.html", // Provide your project's url to finish configuring
+                "url": "https://chassbarker.github.io/portfolio/",
                 "presentation": {
                     "hidden": true
                 }
@@ -68,7 +68,7 @@
                     "--headless",
                     "--remote-debugging-port=9222"
                 ],
-                "url": "c:\\Users\\Chassidy Barker\\.vscode\\extensions\\ms-edgedevtools.vscode-edge-devtools-2.1.8\\out\\startpage\\index.html", // Provide your project's url to finish configuring
+                "url": "https://chassbarker.github.io/portfolio/",
                 "presentation": {
                     "hidden": true
                 }
@@ -77,7 +77,7 @@
                 "type": "vscode-edge-devtools.debug",
                 "name": "Open Edge DevTools",
                 "request": "attach",
-                "url": "c:\\Users\\Chassidy Barker\\.vscode\\extensions\\ms-edgedevtools.vscode-edge-devtools-2.1.8\\out\\startpage\\index.html", // Provide your project's url to finish configuring
+                "url": "https://chassbarker.github.io/portfolio/",
                 "presentation": {
                     "hidden": true
                 }
