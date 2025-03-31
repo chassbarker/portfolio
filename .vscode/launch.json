@@ -1,0 +1,97 @@
+    {
+        "version": "0.2.0",
+        "configurations": [
+            // Removed duplicate "Attach to Chrome (1)" configuration to avoid conflicts
+            {
+                "name": "Launch Chrome",
+                "request": "launch",
+                "type": "chrome",
+                "url": "http://localhost:8080",
+                // Maps the workspace folder to the web server's root for debugging purposes
+                // Maps the workspace folder to the web server's root for debugging purposes
+                "webRoot": "${workspaceFolder}"
+            },
+            {
+                "name": "Attach to Chrome (Port 9222)",
+                "port": 9222,
+                "request": "attach",
+                "type": "chrome",
+                "webRoot": "${workspaceFolder}"
+            },
+            {
+                "name": "Attach to Node.js",
+                "port": 9229,
+                "request": "attach",
+                "skipFiles": [
+                    "<node_internals>/**"
+                ],
+                "type": "node"
+            },
+            {
+                "name": "Attach to Edge",
+                "port": 9223,
+                "request": "attach",
+                "type": "msedge",
+                "webRoot": "${workspaceFolder}"
+            },
+            {
+                "name": "Launch Program",
+                "program": "${workspaceFolder}/app.js",
+                "request": "launch",
+                "skipFiles": [
+                    "<node_internals>/**"
+                ],
+                "type": "node"
+            },
+            {
+                "type": "msedge",
+                "name": "Launch Microsoft Edge",
+                "request": "launch",
+                "runtimeArgs": [
+                    "--remote-debugging-port=9222"
+                ],
+                "url": "https://chassbarker.github.io/portfolio/",
+                "presentation": {
+                    "hidden": true
+                }
+            },
+            {
+                "type": "msedge",
+                "name": "Launch Microsoft Edge in headless mode",
+                "request": "launch",
+                "runtimeArgs": [
+                    "--headless",
+                    "--remote-debugging-port=9222"
+                ],
+                "url": "https://chassbarker.github.io/portfolio/",
+                "presentation": {
+                    "hidden": true
+                }
+            },
+            {
+                "type": "vscode-edge-devtools.debug",
+                "name": "Open Edge DevTools",
+                "request": "attach",
+                "url": "https://chassbarker.github.io/portfolio/",
+                "presentation": {
+                    "hidden": true
+                }
+            }
+        ],
+        "compounds": [
+            {
+                "name": "Launch Edge Headless and attach DevTools",
+                "configurations": [
+                    "Launch Microsoft Edge in headless mode",
+                    "Open Edge DevTools"
+                ]
+            },
+            {
+                "name": "Launch Edge and attach DevTools",
+                "configurations": [
+                    "Launch Microsoft Edge",
+                    "Open Edge DevTools"
+                ]
+            }
+        ]
+    }
